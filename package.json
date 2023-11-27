@@ -12,17 +12,22 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@types/animejs": "^3.1.12",
+    "mitt": "^3.0.1",
     "nuxt": "^3.8.2",
     "sass": "^1.69.5",
     "sass-loader": "^13.3.2",
     "vue": "^3.3.8",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.2.5",
+    "vue3-highlightjs": "^1.0.5"
+  },
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "highlight.js": "^11.9.0",
+    "lottie-web": "^5.12.2",
+    "swiper": "^11.0.5"
   },
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ],
-  "dependencies": {
-    "animejs": "^3.2.1"
-  }
+  ]
 }
