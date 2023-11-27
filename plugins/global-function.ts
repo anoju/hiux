@@ -282,7 +282,7 @@ const getTopFixedHeight = function (element: HTMLElement, className: string = 't
   return topFixedHeight;
 };
 
-export default defineNuxtPlugin((nuxtApp) => {
+export default defineNuxtPlugin((nuxtApp: any) => {
   nuxtApp.provide('globalCounters', {});
   nuxtApp.provide('anime', anime);
   nuxtApp.provide('scrollTo', scrollTo);

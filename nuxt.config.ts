@@ -1,3 +1,5 @@
+// import eslintPlugin from 'vite-plugin-eslint';
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -18,5 +20,5 @@ export default defineNuxtConfig({
     }
   },
   css: ['~/assets/scss/front.scss'],
-plugins: ['~/plugins/global-function.ts', '~/plugins/modal.ts', '@/plugins/highlightjs.ts']
-})
+  plugins: ['~/plugins/global-function.ts', '~/plugins/modal.ts', '@/plugins/highlightjs.ts']
+});
